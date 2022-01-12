@@ -1,18 +1,30 @@
-.header{
-    display: inline-flex;
-    flex-wrap: wrap;
-    background-color: #1F2937;
-    margin: 0%;
-    border: 0px;
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.header{
+    background-color: #1f2937;
+    padding-bottom: 50px;
+}
 
-.logo{
-    display:flex;
-    flex-flow:row wrap ;
-    align-content: flex-start;
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logoo{
     border-radius: 50%;
-    margin: 50px;
+    margin: 50px 50px 100px 100px;
+    border-style: solid;
+    border-color: #fdfeff;
+    border-width: 2px; 
+}
+.right-links{
+    font-size: 18px;
+    margin: 50px 100px 100px 50px;
+    display: flex;
+    gap: 20px;
 }
 
 a{
@@ -20,20 +32,26 @@ a{
     color: #F9FAF8;
 }
 
-.right-links{
+.top2{
     display: flex;
-    justify-content: flex-end;
-    gap:25px;
-    margin-left:650px;
-    margin-top: 50px;
+    justify-content: space-evenly;
 }
 
 .header1{
-    display: inline-flex;
-    flex-direction: column;
+    display: flex;
+    flex-flow: column nowrap;
     font-size: 48px ;
-    color: #F9FAF8;
+    color: #f8f9fa;
     font-weight: 800;
+    margin-left:150px;
+    margin-top:50px;
+}
+
+.img1{
+    border-width: 3px;
+    border-color: #fdfeff;
+    margin: 1px 150px 50px 50px;
+    padding-left: 40px;
 }
 
 p{
@@ -43,12 +61,14 @@ p{
 
 button{
     display:flex;
-    align-self:center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #3882f6; ;
     color: #F9FAF8;
+    font-size: 18px;
     border: 0;
+    border-radius: 10px;
+    padding: 12px 45px;
 }
-
 .header2{
     font-size: 36px;
     font-weight: 800;
