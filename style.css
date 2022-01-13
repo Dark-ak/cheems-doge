@@ -4,7 +4,7 @@ body{
 
 .header{
     background-color: #1f2937;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .top{
@@ -15,7 +15,7 @@ body{
 
 #logoo{
     border-radius: 50%;
-    margin: 50px 50px 100px 100px;
+    margin: 50px 50px 80px 100px;
     border-style: solid;
     border-color: #fdfeff;
     border-width: 2px; 
@@ -70,11 +70,33 @@ button{
     padding: 12px 45px;
 }
 .header2{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 36px;
     font-weight: 800;
     color: #1f2397;
 }
 
+.title{
+    font-size: 38px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+}
+
+.contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+}
+ 
+.avatar{
+    border-width: 5px;
+    border-color: #3882f6;
+}
 .quote{
     background-color: #e5e7eb;
     font-size: 36px;
